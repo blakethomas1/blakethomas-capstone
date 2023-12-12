@@ -1,0 +1,53 @@
+ Version 0.0.1: 
+ Created Hello World MERN website with a simple frontend and mongo connectivity. - T.E.
+
+ Version 0.0.2: 
+Added the folders and files for the info in the show more buttons. - J.M.
+Added metrics page skeleton. - T.E.
+
+ Version 0.0.3: 
+Created two separate metrics pages, added modal + dropdown. - T.E.
+Added about us page. - H.F.
+
+ Version 0.0.4: 
+Added some server functionality. - H.F.
+Added modal files for "More Info" button. - J.M.
+
+ Version 0.0.5: 
+More server functionality. - B.T.
+
+ Version 0.0.6: 
+Added functionalityto testing screen. - H.F.
+
+ Version 0.0.7: 
+Updated input and range fields to show values. - H.F.
+
+ Version 0.0.8: 
+Queue Changes. Almost completed. - T.E.
+
+ Version 0.0.9: 
+Added more selection functionality. All clickables now function. - H.F.
+
+ Version 0.1.0: 
+Finished algorithm functionality. - H.F.
+
+ Version 0.1.1: 
+Added working queue. - J.M.
+
+ Version 0.1.2: 
+Added full queue functionality. - T.E.
+Styled full queue. - H.F.
+
+ Version 0.1.3: 
+Added auto clearing queue. - T.E.
+
+ Version 0.1.4: 
+Button changes. - H.F.
+
+ Version 0.1.5: 
+Added fake results info and started on the results modal. - J.M.
+Fixed the results modal. - H.F.
+
+ Version 0.0.0: 
+Completed About us page. - T.E.
+Algo options are now sent to the database. - H.F.

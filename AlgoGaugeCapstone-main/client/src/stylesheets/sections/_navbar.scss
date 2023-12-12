@@ -1,0 +1,75 @@
+@use '../custom' as *;
+
+.navbar {
+    background-color: $main;
+}
+
+.active {
+    color: rgb(255, 255, 255) !important;
+}
+
+nav {
+    background-color: $main;
+    .navbar-brand {
+        width: 50%;
+    }
+    img {
+        width: 50%;
+    }
+    
+    .nav-link {
+        color: black;
+        font-size: 1.5rem;
+    }
+
+
+    .nav-link.active {
+        color: white;
+        text-decoration: underline;
+    }
+
+    .nav-link:hover {
+        color: white;
+    }
+    
+    .navbar-toggler {
+        color: white;
+     //   background-color: white;
+    }
+
+    .navbar-toggler-icon {
+        color: white;
+    }
+    button {
+        color: white;
+    }
+}
+
+.nav-drop {
+    border-radius: 0px;
+    background-color: #212529;
+}
+
+.nav-drop-item {
+    a {
+        text-decoration: none;
+    }
+
+
+    color: white;
+    text-decoration: none;
+}
+
+.nav-drop-item:hover {
+    color:#212529;
+}
+
+.dropdown-item.active {
+    background-color: #212529;
+    text-decoration: underline;
+}
+
+.dropdown-item.active:hover {
+    background-color: white;
+    color: #212529 !important; 
+}

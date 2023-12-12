@@ -1,0 +1,55 @@
+$main: #CB00FF;
+$footer: #9700bc;
+$hoverCol: $main;
+
+
+.dropdowns {
+    padding: 1rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    border-radius: 30px;
+    font-size: 25px;
+}
+
+.dropdown-item {
+    text-align: center;
+}
+
+#runbtn {
+    visibility: hidden;
+    padding: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 1.5rem;
+    border-radius: 30px;
+}
+
+.algoCom, .structCom, #bubblePivot, #algoDataDrop, #number-of-items,
+#bubblePivot2, #algoDataDrop2, #number-of-items2, 
+#bubbleInfo, #selectionInfo, #insertionInfo, #quickInfo, #mergeInfo, #heapInfo,
+#bubbleInfo2, #selectionInfo2, #insertionInfo2, #quickInfo2, #mergeInfo2, #heapInfo2, #resultsbtn
+ {
+    display: none;
+}
+
+#bubblePivot, #bubblePivot2 {
+    border-radius: 30px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: rgba(255, 255, 255, 0.685);
+    width: 100%;
+    margin: auto;
+}
+
+#range1, #rangeInput1, #range2, #rangeInput2 {
+    width: 40%;
+    margin: auto;
+}
+
+.numItem {
+    font-size: 23px;
+}
+
+.userSpot {
+    color: red;
+}

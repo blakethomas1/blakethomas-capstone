@@ -1,0 +1,53 @@
+@use "custom";
+@use "sections/home";
+@use "sections/navbar";
+@use "sections/login";
+@use "sections/create";
+@use "sections/footer";
+@use "sections/testing";
+@use "sections/metrics";
+
+
+@font-face {
+    font-family: 'Oswald';
+    src: url('../fonts/Oswald-Regular.woff2') format('woff2'),
+        url('../fonts/Oswald-Regular.woff') format('woff'),
+        url('../fonts/Oswald-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: 'Oswald';
+}
+
+h1 {
+    font-weight: medium;
+    font-size: 100px;
+}
+
+h2 {
+    font-weight: normal;
+    font-size: 80px;
+}
+
+h3 {
+    font-weight: normal;
+    font-size: 60px;
+}
+
+h4 {
+    font-weight: light;
+    font-size: 50px;
+}
+
+h5 {
+    font-weight: light;
+    font-size: 35px;
+}
+
+p {
+    font-weight: light;
+    font-size: 23px;
+}
